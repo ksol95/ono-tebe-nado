@@ -1,5 +1,5 @@
-@import url(global.css);
 @import url(../fonts/fonts.css);
+@import url(global.css);
 
 a{
   border-bottom: 1px solid #000;
@@ -156,7 +156,7 @@ a{
 .lots__card-list-item{
   flex-grow: 1;
   width: 430px;
-  height: 450px;
+  min-height: 450px;
 }
 
 .card-link{
