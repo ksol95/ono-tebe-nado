@@ -1,13 +1,5 @@
-@import url(../fonts/fonts.css);
-@import url(global.css);
-
-a{
-  border-bottom: 1px solid #000;
-  text-decoration: none;
-}
-
 .container{
-  width: 1440px;
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -30,9 +22,11 @@ a{
 }
 
 .header__link{
+  border-bottom: 1px solid #000;
   color: #000;
   font-weight: 400;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .header__link_active{
@@ -43,25 +37,28 @@ a{
   flex-shrink: 0;
   width: 148px;
   height: 105px;
-  margin-left: -151px;
+  margin-right: 146px;
 }
 
 .address{
+  max-width: 240px;
   color: #000;
   font-size: 18px;
   font-style: normal;
   line-height: 1.35;
 }
+.address a{
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+}
 
 .cover{
   position: relative;
-  min-height: 757px;
   padding: 165px 50px 50px 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
-  background-position: 0 -18px;
   background-size: cover;
-
+  background-position: center;
 }
 
 .overlay{
@@ -77,16 +74,17 @@ a{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-bottom: 147px;
+  margin-bottom: 135px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
-  line-height: 1.15;
+  line-height: 1;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
 
 .aligned-text{
+  line-height: 1.15;
   text-align: start;
 }
 
@@ -106,13 +104,16 @@ a{
   letter-spacing: normal;
 }
 
-.line-height-1{
-  line-height: 1;
-}
-
 .cover__subtitle{
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 80px;
+}
+.cover__subtitle-text{
   color: #fff;
   font-weight: 400;
   font-size: 22px;
@@ -123,12 +124,15 @@ a{
 }
 
 .cover__subtitle-button{
-  margin-left: 54px;
   border: 1px solid #fff;
   padding: 12px 32px;
+  color: #fff;
+  font-weight: 400;
   font-size: 22px;
   line-height: normal;
+  text-transform: uppercase;
   word-spacing: 0px;
+  background-color: transparent;
 }
 
 .lots{
@@ -172,24 +176,21 @@ a{
   justify-content: space-between;
   height: 100%;
   padding: 50px 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card.card_type_film{
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card.card_type_book{
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .card.card_type_picture{
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card__title{
@@ -276,6 +277,7 @@ a{
 }
 
 .footer__menu-link{
+  border-bottom: 1px solid #000;
   font-weight: 400;
   font-size: 18px;
   line-height: normal;
