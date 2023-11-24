@@ -1,1 +1,0 @@
-git@github.com:ksol95/ono-tebe-nado.git
