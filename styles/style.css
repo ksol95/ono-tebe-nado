@@ -1,4 +1,4 @@
-.container{
+body{
   max-width: 1440px;
   margin: auto;
 }
@@ -64,7 +64,6 @@
 .overlay{
   position: absolute;
   inset: 0;
-  width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
