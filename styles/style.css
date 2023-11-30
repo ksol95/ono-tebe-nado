@@ -22,11 +22,11 @@ body {
 }
 
 .header__link {
-  text-underline-offset: 4px;
   color: #000;
   font-weight: 400;
   font-size: 18px;
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .header__link_active {
@@ -48,8 +48,8 @@ body {
   line-height: 1.35;
 }
 .address a {
-  text-underline-offset: 4px;
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .cover {
@@ -57,8 +57,8 @@ body {
   padding: 165px 50px 50px 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 .overlay {
@@ -216,6 +216,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: normal;
+  text-underline-offset: 5px;
 }
 
 .about {
@@ -275,10 +276,10 @@ body {
 }
 
 .footer__menu-link {
-  text-underline-offset: 4px;
   font-weight: 400;
   font-size: 18px;
   line-height: normal;
+  text-underline-offset: 4px;
 }
 
 .footer__menu-link.footer__menu-link_active {
