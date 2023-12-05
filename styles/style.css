@@ -11,7 +11,7 @@ body {
 }
 
 .header__menu {
-  flex-grow: 1;
+  flex-grow: .6;
   max-width: 596px;
 }
 
@@ -43,7 +43,6 @@ body {
 }
 
 .header__logo-image {
-  flex-shrink: 0;
   width: 148px;
   height: 105px;
 }
@@ -59,7 +58,7 @@ body {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-/* FLEX header */
+/* /FLEX header */
 /* GRID header */
 /* .header {
   display: grid;
