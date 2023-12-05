@@ -10,7 +10,7 @@ body {
   padding: 92px 49px 92px 51px;
 }
 
-.header__menu{
+.header__menu {
   flex-grow: 1;
   max-width: 596px;
 }
@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 
-.header__logo{
+.header__logo {
   flex-grow: 1;
 }
 
