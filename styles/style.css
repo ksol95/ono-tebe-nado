@@ -3,7 +3,7 @@ body {
   margin: auto;
 }
 /* FLEX header */
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,10 +57,10 @@ body {
 .address a {
   text-decoration: underline;
   text-underline-offset: 4px;
-}
+} */
 /* /FLEX header */
 /* GRID header */
-/* .header {
+.header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -115,7 +115,7 @@ body {
 .address a {
   text-decoration: underline;
   text-underline-offset: 4px;
-} */
+}
 /* /GRID header */
 .cover {
   position: relative;
