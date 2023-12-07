@@ -223,7 +223,7 @@ body {
 
 .lots__card-list-item {
   flex-grow: 1;
-  width: 430px;
+  flex-basis: 430px;
   min-height: 450px;
 }
 
